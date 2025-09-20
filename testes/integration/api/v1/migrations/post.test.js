@@ -22,4 +22,4 @@ test("POST to /api/v1/migrations should run migrations", async () => {
   const response2Body = await response2.json();
   expect(Array.isArray(response2Body)).toBe(true);
   expect(response2Body.length).toBe(0);
-});
+})

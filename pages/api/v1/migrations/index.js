@@ -47,4 +47,4 @@ export default async function migrations(request, response) {
   } finally {
     await dbClient.end();
   }
-  }
+}
